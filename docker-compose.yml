@@ -1,7 +1,7 @@
 ---
 services:
 
-  db-pg:
+  db_pg:
     image: postgres
     restart: always
     # set shared memory limit when using docker-compose
