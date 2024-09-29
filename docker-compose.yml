@@ -20,11 +20,3 @@ services:
     expose:
       - 5432
 
-  adminer-pg:
-    image: adminer
-    restart: always
-    #ports:
-    #  - 8080:8080
-    expose:
-      - 8080
-
